@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>|
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <head>
+        <img class="logotipo" src="/imagenes/Vector.png" alt="logotipo">
+        <h1 class="titulo">Encritador de mensajes </h1>
+    </head>
+    <main>
+        <section>
+            
+            <img class="libretatexto" src="/imagenes/notebook-g607e7322f_1280.png" alt="libretatexto">
+            <textarea class="textoarea" cols="30" rows="10" placeholder="  Ingrese el Texto"></textarea>
+            <div>
+                <h6 class="informacion ">Solo letras minusculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="botonEncriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="botonDesencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <img class="libreta" src="/imagenes/notebook-g607e7322f_1280.png" alt="libreta">
+            <textarea class="mensaje" cols="30" rows="10">copai el testo aqui</textarea>
+            <div> 
+                <button class="copiar" onclick="copiar()">Copiar</button>
+                <button class="borrar" onclick="borrar()">Borrar</button>
+            </div>
+            
+        </section>
+
+    </main>
+<script src="metodo.js"></script>
+</body>
+</html>
